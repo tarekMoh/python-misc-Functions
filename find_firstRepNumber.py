@@ -1,7 +1,6 @@
 
 def  firstRepeatedNumber(arr1, arr2):
     compare = 1
-    # find xor of all elements
     if len(arr1) <= len(arr2):
         x = arr1
         y = arr2
